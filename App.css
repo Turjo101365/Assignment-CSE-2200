@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 15px
+}
+
+.section-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.headline {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subtext {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.banner {
+  background-color: rgb(148, 38, 38);
+  height: 160px;
+  margin: 20px 0;
+}
+
+.intro-text,
+.main-text {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.author-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color:rgb(242, 204, 204);
+  border-radius: 50%;
+}
+
+.author-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.date {
+  font-size: 13px;
+  color: black;
+}
+
+.reactions-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  background-color: #e6f2ff;
+}
+
+.reaction {
+  background-color: #e6f2ff;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.percent {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.comments-section {
+  margin-top: 40px;
+}
+
+.comments-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.comment-input {
+  width: 97%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.comment-content {
+  margin-left: 15px;
+  flex: 1;
+}
+
+.comment-meta {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.comment-text {
+  margin-bottom: 10px;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  color: black;
+}
+
+.Background{
+  color: white;
+  background-color: #7aa8d9;
+  border-radius: 10px;
+
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.page {
+  padding: 8px 14px;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.page.active {
+  background-color: #0077cc;
+  color:#fff;
+}
